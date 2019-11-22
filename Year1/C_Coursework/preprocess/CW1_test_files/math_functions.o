@@ -1,0 +1,58 @@
+int add(int a, int b);
+int subtract_from_const(int n);
+int multiply_by_const(int n);
+double divide_by_const(int n);
+double average(int size, int *array);
+double area_of_circle(double radius);
+int light_speed();
+
+void chomp(char *string);
+int my_strlen(char *string);
+int my_strcmp(char *string1, char *string2);
+
+
+int add(int a, int b) 
+{
+    return a + b; 
+}
+
+
+int subtract_from_const(int n) 
+{
+    return 100- n;
+}
+
+
+int multiply_by_const(int n) 
+{
+    return 50* n;
+}
+
+
+double divide_by_const(int n) 
+{
+    return (double) 25/ n;
+}
+
+
+double average(int size, int *array) 
+{
+    int total = 0; 
+    for(int i=0; i<size; i++) 
+    {
+        total += array[i];
+    }
+    return (double)total/size;
+}
+
+
+double area_of_circle(double radius)
+{
+    return radius * radius * 3.142;
+}
+
+
+int light_speed()
+{
+    return 299792458;
+}

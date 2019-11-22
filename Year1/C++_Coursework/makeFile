@@ -1,0 +1,21 @@
+#Compile as many files as necessary into object files
+coursework2:
+	cl /c  test.cpp BinarySearchTree.cpp 
+	cl /c  partB.cpp
+	
+
+#Reusable library of code generated
+lib test.obj BinarySearchTree.cpp
+
+#Link the .obj files
+link test.obj BinarySearchTree.cpp
+
+clean: 
+	
+	del *.exe
+	
+	del *.lib
+	
+	del *.obj
+	
+	
