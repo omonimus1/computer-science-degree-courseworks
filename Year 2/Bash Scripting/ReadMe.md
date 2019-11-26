@@ -16,6 +16,15 @@ The user will be able to:
 * Remove all the crontab job.
 * Validate any user imput.
 
+# My role
+
+I have worked on:
+* Design of the script.
+* Add job function.
+* Coding review of the display function (I have added a user message if the file was empty).
+* Buf fixing of the edit job function.
+* Write part of the documentation.
+
 # Notes
 
 * Make sure to have the crontab file in the same working directory of the script.
@@ -25,4 +34,12 @@ The user will be able to:
 # Documentation
 To get any advices to run and use the script please, have a look at the documentation.pdf file.
 
-Enjoy. 
+# Feedback from the Module Leader and Final Grade
+
+Overall, it was a very intuitive script that included all the tasks. It had all the required functionalities as they were requested. Only displaying the jobs could be slightly more human readable. I must complement you for the very well-built menu. The embedded comments and the documentation were just an add-on to an already professional work.
+
+* Points : 39/40 
+* Grade  : 97.5%
+
+
+
