@@ -23,6 +23,6 @@ The user will be able to:
 * Because the star character is a special character in the shell , write (-1 instead char) when you would like to use it (more details in the documentation.pdf file).
 
 # Documentation
+To get any advices to run and use the script please, have a look at the documentation.pdf file.
 
-To execute the script, use the documentation.pdf file , that includes screenshots that will help you to run the script and play with it.
 Enjoy. 
