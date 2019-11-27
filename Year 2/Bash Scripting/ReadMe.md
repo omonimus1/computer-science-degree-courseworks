@@ -2,7 +2,7 @@
 
 This Coursework has been assigned as pratical Coursework in Team in the Operatying System module.
 I have created this script with the brilliant collaboration of:
-* Taylor Courtney 
+* Taylor Courtney ->   @taylorc1009 
 * Simone Piazzini 
 
 # Goal of the project
