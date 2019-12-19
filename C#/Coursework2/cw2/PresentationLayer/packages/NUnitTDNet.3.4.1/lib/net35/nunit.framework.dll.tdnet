@@ -1,0 +1,7 @@
+<TestRunner>
+	<FriendlyName>NUnit {0}.{1}.{2}</FriendlyName>
+	<AssemblyPath>..\..\tools\NUnitTDNet.Adapter.dll</AssemblyPath>
+	<TypeName>NUnitTDNet.Adapter.EngineTestRunner</TypeName>
+	<TargetResolution>Reference</TargetResolution>
+	<ApartmentState>MTA</ApartmentState>
+</TestRunner>
