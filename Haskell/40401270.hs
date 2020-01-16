@@ -1,20 +1,8 @@
 {-
-REPLACE the function definitions for each of the questions. 
-The names of the functions correspond to the names given in the document cwk19handout.pdf. 
+Author: Davide Pollicino 
 -}
 
 -- QUESTION 1: Sets
-
-{-
-givenOccurences xs [] = []
-givenOccurences xs (y:ys) = elemCounter y xs : givenOccurences (xs) ys
-
-toMultiset :: (Eq a) => [a] -> [(a,Int)]
-toMultiset [] = []
-toMultiset xs = zip (y:ys) (givenOccurences xs (y:ys))
-    where(y:ys) = uniqueList xs
-	
--}
 
 subSet :: (Eq a) => [a] -> [a] -> Bool
 subSet [] ys = True
@@ -60,15 +48,13 @@ mIntersect [(1,6),(2,3)] [(1,2),(2,5),(3,1)] = [(1,2),(2,3)]
 mIntersect [(1,2),(4,1)] [(1,1),(4,2)] = [(1,1),(4,1)]
  
 THE ORDER OF ELEMENTS IN THE RESULTS OF
-
-
  mUnion IS NOT IMPORTANT.
 -}
 
 
 
 -- QUESTION 2: Functions and relations
---DONE
+
 transClosure xs = [(a,d) | (a,b) <- xs, (c,d) <- xs, b==c] ++ xs
 
 
@@ -84,35 +70,13 @@ DO NOT WORRY ABOUT THE ORDER IN WHICH PAIRS APPEAR IN YOUR LIST
 
 
 
--- QUESTION 3: Combinatorics
---Missing2 does not work
-{-
-missing2 :: Int -> [a] -> [[a]]
-missing2 0 _ = [[]]
-missing2 _ [] = []
-missing2' n (x:xs) = (map (x:) (missing2 (n-1) xs)) ++ (missing2 n xs)
--}
--- TEST SET FOR Q3
-{-
-Your functions should have the following behaviour:
-missing2 [1,2,3] = [[1],[2],[3]]
-missing2 [2,6,9,12] = [[9,12],[6,12],[6,9],[2,12],[2,9],[2,6]]
-NOTE THAT THE SMALLER LISTS ARE SORTED. THE ORDERING OF THE LISTS IN THE BIG LIST DOES NOT MATTER.
--}
-
-
-
-
 -- QUESTION 4: Primes
 
---Done
 nextPrimes :: Int -> [Int]
 nextPrimes n = let sq    = fromIntegral . ceiling . sqrt $ fromIntegral n
                    pri k = (k,and [ k`mod`x/=0 | x <- [2..sq]])
                in  take 3 . map fst . filter snd $ map pri [n..]
-
-
---DONE 
+ 
 primeFactorisation :: Int -> [Int]
 primeFactorisation n = primeFactorisation' n 2
   where
@@ -120,22 +84,6 @@ primeFactorisation n = primeFactorisation' n 2
     primeFactorisation' n f
       | n `mod` f == 0 = f : primeFactorisation' (n `div` f) f
       | otherwise      = primeFactorisation' n (f + 1)
-
-{-
-	Be sure that primeFactorisation will accept value just under 9999999999 or we will run out of time. 
--}
-
-{- 
-Leave the error messages in place if you do not want to attempt the parts for the input size. You should remove the guards up to the point you want to attempt. For example, if you were confident of anything up to five digits, the function would look like:
-
-primeFactorisation n
-    | n <= 99999 = whatever_your_calculation_is
-    | n <= 999999 = error "..."
-    | otherwise = error "..."
-
- -}
-
-
 
 
 -- TEST SET FOR Q4
@@ -148,28 +96,19 @@ primeFactorisation 64 = [2,2,2,2,2,2]
 -}
 
 
--- QUESTION 5: RSA
+-- QUESTION 5: 
 
 
---DONE
 eTotient :: Int -> Int
 eTotient 1 = 1
 eTotient a = length $ filter (coprime a) [1..a-1]
  where coprime a b = gcd a b == 1
 
-
---TO DO
---encode :: Int -> Int -> Int -> Int -> Maybe Int
-
-
 -- TEST SET FOR Q5
 {-
 Your functions should have the following behaviour:
 eTotient 54 = 18
-eTotient 73 = 72
-encode 37 23 29 5 = Just 347
-encode 99 18 108 45 = Nothing
-encode 37 17 23 48 = Nothing
+eTotient 73 = 7
 -}
 
 
