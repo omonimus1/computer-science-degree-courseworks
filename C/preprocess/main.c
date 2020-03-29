@@ -66,7 +66,7 @@ int main(int argc, char **argv) {
         }
 
         if (isset_input_file_argument) {
-            printf("Input file found: %s\n", file_path);
+            printf("\nInput file found: %s\n", file_path);
         }
 		if (!isset_input_file_argument) {
 			printf("-i option is compulsary");
