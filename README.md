@@ -1,14 +1,21 @@
 # university Coursework
 
-This repo contains most of the Coursework that I have created individually or in Team during my Computer Science Degree course at Napier university. 
-Few courseworks will not be published until the end of the demonstration of every student of the course to avoid  any plagiarism.
+This repo contains most of the Coursework that I have created individually or in Team during my **Computer Science Degree course**.
 
-### Contribution with other students
+## List of Coursework
+
+* Operating System : [Cron Jobs Emulation](https://github.com/omonimus1/cron_jobs_interface_emulatio)
+* Foundamentals of Programming: [Weather Station Reading](https://github.com/omonimus1/Weather-station-readings)
+* Web Techonoligies : [My Own Adventure WebSite](https://github.com/omonimus1/myOwnAdventure.github.io) -- [Root13 cypher](https://github.com/omonimus1/Rot13_webTech)
+* Algorithm And Data structures: [4 in line](https://github.com/omonimus1/pollicino_davide_ads)
+* Software Enginnerings methods : [SEM group project](https://github.com/omonimus1/SEM_group_project)
+* Database Management : [SQL Coursework](https://github.com/omonimus1/database-management-rocket-coursework)
+
+## Contribution with other students
 
 If any coursework has been created in team, all the contributors of the projects will be indicated 
 in the documentation of each coursework. 
 
-### Note
+## Avoid Plagiarism
 
-All the coursework that needed its own GitHub repository as part of the project specification , are already accessible by Link. 
-	Es: WebTech/Coursewor1 -> Contains a Link to the Coursework1 WebTech repository. 
+Few courseworks will not be published until the end of the demonstration of every student of the course to avoid any form of  plagiarism.
