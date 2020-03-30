@@ -4,6 +4,8 @@
 #include <vector>
 #include "Node.h"
 
+using namespace std;
+
 class BinarySearchTree
 {
 public:
@@ -29,16 +31,16 @@ public:
 	// Adds a word to the tree
 	void insert(std::string word);
 	
-	void BinarySearchTree::insert_helper(Node **root, std::string word);
+	void insert_helper(Node **root, std::string word);
 
 	// Checks if a word is in the tree
 	bool exists(std::string word);
 
 	// Checks recursevely inside the tree
-	bool BinarySearchTree::exists_helper(Node **root, std::string word);
+	bool exists_helper(Node **root, std::string word);
 
 	// Create recursevely a string that contains the tree in inorder way
-	std::string BinarySearchTree::inorder_helper(Node *root)const;
+	string inorder_helper(Node *root)const;
 
 	// Create recursevely a string that contains the tree in preorder way
 	std::string BinarySearchTree::preorder_helper(Node *root)const;

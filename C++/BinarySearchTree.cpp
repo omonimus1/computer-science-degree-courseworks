@@ -17,12 +17,12 @@ using namespace std;
 // Free the memory used by the tree
 
 void destroy_helper(Node **root);
-<<<<<<< HEAD
-void BinarySearchTree::copy_helper(Node **root,const BinarySearchTree &rhs);
-=======
+
+
 void incrementCounter_helper(Node **root);
+
 Node* copy_helper(Node *rhs);
->>>>>>> 1a3bab51c40db85b4613413d12eed176bc481d02
+
 
 // **Constructors **
 //Creates an empty binary search tree
