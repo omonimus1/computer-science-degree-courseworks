@@ -10,6 +10,7 @@ This repo contains most of the Coursework that I have created individually or in
 * Algorithm And Data structures: [4 in line](https://github.com/omonimus1/pollicino_davide_ads)
 * Software Enginnerings methods : [SEM group project](https://github.com/omonimus1/SEM_group_project)
 * Database Management : [SQL Coursework](https://github.com/omonimus1/database-management-rocket-coursework)
+* Haskell : [Haskell Coursework](https://github.com/omonimus1/Haskell_and_nachos)
 
 ## Contribution with other students
 
