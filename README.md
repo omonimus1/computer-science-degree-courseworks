@@ -1,21 +1,25 @@
-# university Coursework
+# Computer Science Degree Courseworks at Edinburgh Napier University 
 
-This repo contains most of the Coursework that I have created individually or in Team during my **Computer Science Degree course**.
+Hi to everyone!
+Please, use this repository to view the coursework that I have created at Edinburgh Napier University, during my Compute Science Bachelor Degree. 
 
-## List of Coursework
+Mind that, in case of error 404(NOT FOUND), this error could be caused from the visibility settings of any coursework. Before to set all the third year courseworks available to you, it will be necessary to wait unilt Jenuary 2021, to avoid any plagiarism from other students, in respect to the University Courseworks regulations. 
 
-* Operating System : [Cron Jobs Emulation](https://github.com/omonimus1/cron_jobs_interface_emulatio)
+## 1rst Year
 * Foundamentals of Programming: [Weather Station Reading](https://github.com/omonimus1/Weather-station-readings)
+
+
+## 2nd Year
+* Operating System : [Cron Jobs Emulation](https://github.com/omonimus1/cron_jobs_interface_emulatio)
 * Web Techonoligies : [My Own Adventure WebSite](https://github.com/omonimus1/myOwnAdventure.github.io) 
 * Software Enginnerings methods : [SEM group project](https://github.com/omonimus1/SEM_group_project)
 * Database Management : [SQL Coursework](https://github.com/omonimus1/database-management-rocket-coursework)
-* Haskell : [Haskell Coursework](https://github.com/omonimus1/Haskell_and_nachos)
-
+* Haskell : [Haskell Coursework](https://github.com/omonimus1/Haskell_and_nachos/blob/master/Coursework.hs)
+## 3rd Year
+* [Software Enginner: Napier Bank contact us management](https://github.com/omonimus1/software-enginner-module/tree/main/coursework)
+* [Data Visualization](https://github.com/omonimus1/data-analytics/tree/master/coursework)
+* [Artificial Intelligence](https://github.com/omonimus1/AI_module/tree/main/coursework)
 ## Contribution with other students
 
 If any coursework has been created in team, all the contributors of the projects will be indicated 
-in the documentation of each coursework. 
-
-## Avoid Plagiarism
-
-Few courseworks will not be published until the end of the demonstration of every student of the course to avoid any form of  plagiarism.
+in the documentation of each coursework.
