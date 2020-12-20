@@ -17,11 +17,13 @@ Mind that, in case of error 404(NOT FOUND), this error could be caused from the 
 * Software Enginnerings methods : [SEM group project](https://github.com/omonimus1/SEM_group_project)
 * Database Management : [SQL Coursework](https://github.com/omonimus1/database-management-rocket-coursework)
 ## 3rd Year
-* [Software Enginner: Napier Bank contact us management](https://github.com/omonimus1/software-enginner-module/tree/main/coursework)
+* Software Enginner: [Napier Bank contact us management](https://github.com/omonimus1/software-enginner-module/tree/main/coursework)
 * [Data Visualization](https://github.com/omonimus1/data-analytics/tree/master/coursework)
+* [Data mining](https://github.com/omonimus1/data-analytics/tree/master/coursework2)
 * [Artificial Intelligence](https://github.com/omonimus1/AI_module/tree/main/coursework)
-## Contribution with other students
+* [Natural Processing Language](https://docs.google.com/document/d/1nWNTfrTgyqOW-S5nlquUmPEKiTMQxtzLcDK_daRL2V0/edit?usp=sharing)
 
+## Contribution with other students
 If any coursework has been created in team, all the contributors of the projects will be indicated 
 in the documentation of each coursework.
 
